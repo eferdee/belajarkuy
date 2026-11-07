@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#f7f8fc" />
+  <title>BelajarKuy — Teratur. Belajar Lebih Cerdas.</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div id="landing" class="landing-view">
+    <nav class="site-nav container">
+      <a class="brand" href="#"><span class="brand-mark">b.</span> belajar<span>kuy</span></a>
+      <div class="nav-links">
+        <a href="#features">Fitur</a><a href="#how-it-works">Cara Kerja</a><a href="#about">Tentang</a>
+      </div>
+      <div class="nav-actions"><button class="btn btn-ghost" id="navLogin">Masuk</button><button class="btn btn-primary" id="navStart">Mulai Sekarang <span>↗</span></button></div>
+      <button class="mobile-menu" id="mobileMenu" aria-label="Buka menu">☰</button>
+    </nav>
+
+    <main>
+      <section class="hero container">
+        <div class="hero-copy">
+          <div class="eyebrow"><span class="eyebrow-dot"></span> TEMAN AKADEMIK PRIBADIMU</div>
+          <h1>Sisihkan ruang<br>untuk <span>hal-hal besar.</span></h1>
+          <p class="hero-desc">Atur tugas, susun jadwal belajar, dan pantau progres kuliahmu. Semua hal akademik, lebih terorganisasi dalam satu tempat.</p>
+          <div class="hero-actions"><button class="btn btn-primary btn-lg" id="heroStart">Mulai Atur Aktivitas <span>→</span></button><button class="btn btn-soft btn-lg hidden" id="heroDemo" type="button">Coba akun demo</button><a class="text-link" href="#features">Jelajahi fitur <span>↓</span></a></div>
+          <div class="hero-proof"><div class="avatar-stack"><i>F</i><i>A</i><i>N</i><i>+</i></div><span>Dibuat untuk perjalanan akademikmu.</span></div>
+        </div>
+        <div class="hero-visual">
+          <div class="decor decor-one"></div><div class="decor decor-two"></div>
+          <div class="preview-window">
+            <div class="preview-top"><div class="window-dots"><i></i><i></i><i></i></div><span>belajarkuy.app</span></div>
+            <div class="preview-frame" id="previewFrame"><iframe id="previewIframe" title="Pratinjau dashboard BelajarKuy" tabindex="-1" aria-hidden="true" inert></iframe></div>
+          </div>
+        </div>
+      </section>
+
+      <section class="trust-strip container"><span>SATU RUANG UNTUK KEHIDUPAN AKADEMIKMU</span><div><b>Rencanakan</b><i>✦</i><b>Fokus</b><i>✦</i><b>Pantau</b><i>✦</i><b>Berkembang</b></div></section>
+
+      <section class="section container" id="features">
+        <div class="section-heading"><div class="eyebrow">KURANGI KEKACAUAN, TAMBAH KEJELASAN</div><h2>Semua yang kamu butuhkan<br>untuk <span>tetap di jalur.</span></h2><p>Enggak perlu berpindah-pindah aplikasi. Kelola rutinitas akademikmu dengan lebih simpel.</p></div>
+        <div class="feature-grid">
+          <article class="feature-card feature-large lavender"><div class="feature-copy"><div class="feature-icon">☷</div><h3>Tugas &amp; Tenggat</h3><p>Catat tugas, tentukan prioritas, dan pastikan tidak ada deadline yang terlewat.</p></div><div class="feature-art" id="artTasks" aria-hidden="true" inert></div></article>
+          <article class="feature-card mint"><div class="feature-icon">◷</div><h3>Perencana Belajar</h3><p>Susun sesi belajar yang realistis dan bangun rutinitas yang konsisten.</p><div class="feature-art" id="artPlanner" aria-hidden="true" inert></div></article>
+          <article class="feature-card peach"><div class="feature-icon">▦</div><h3>Kalender Akademik</h3><p>Lihat agenda, jadwal, dan tenggat akademik dalam satu kalender.</p><div class="feature-art" id="artCalendar" aria-hidden="true" inert></div></article>
+          <article class="feature-card blue"><div class="feature-icon">▤</div><h3>Catatanku</h3><p>Simpan ide dan rangkuman materi agar mudah ditemukan kembali.</p><div class="feature-art" id="artNote" aria-hidden="true" inert></div></article>
+          <article class="feature-card dark-card"><div class="feature-icon">◔</div><h3>Progres</h3><p>Lihat berapa tugas yang sudah selesai dan yang masih kamu kerjakan.</p><div class="feature-art" id="artProgress" aria-hidden="true" inert></div></article>
+        </div>
+      </section>
+
+      <section class="how-section" id="how-it-works"><div class="container how-inner"><div class="section-heading"><div class="eyebrow">MULAI DALAM 3 LANGKAH</div><h2>Langkah kecil.<br><span>Semester lebih baik.</span></h2><p>Mulai dari hal sederhana. BelajarKuy membantumu menjaga semuanya tetap terarah.</p></div><div class="steps"><div class="step"><span>01</span><div class="step-icon">＋</div><h3>Catat semuanya</h3><p>Masukkan tugas, jadwal, dan agenda akademik yang perlu kamu ingat.</p></div><div class="step"><span>02</span><div class="step-icon">⌁</div><h3>Susun minggumu</h3><p>Atur prioritas dan alokasikan waktu belajar sesuai kebutuhanmu.</p></div><div class="step"><span>03</span><div class="step-icon">↗</div><h3>Pantau progresmu</h3><p>Pantau apa yang sudah selesai dan fokus pada langkah berikutnya.</p></div></div></div></section>
+
+      <section class="cta-section container" id="about"><div class="cta-box"><div class="eyebrow">SEMESTER BARUMU DIMULAI DI SINI</div><h2>Buat hidup akademikmu<br>sedikit lebih <span>ringan.</span></h2><p>Mulai kelola aktivitas akademikmu dengan lebih terarah.</p><button class="btn btn-light btn-lg" id="ctaStart">Coba BelajarKuy <span>→</span></button><div class="cta-spark">✳</div></div></section>
+    </main>
+    <footer class="site-footer container"><a class="brand" href="#"><span class="brand-mark">b.</span> belajar<span>kuy</span></a><span>Dibuat untuk mahasiswa, dengan sepenuh hati. © 2026 BelajarKuy</span><a href="#features">Kembali ke atas ↑</a></footer>
+  </div>
+
+  <div id="app" class="app-view hidden">
+    <aside class="sidebar" id="sidebar">
+      <a class="brand side-brand" href="#"><span class="brand-mark">b.</span> belajar<span>kuy</span></a>
+      <div class="workspace-label">RUANG KERJA</div>
+      <nav class="side-nav">
+        <button class="side-link active" data-page="overview"><span>▦</span> Ringkasan</button>
+        <button class="side-link" data-page="tasks"><span>☷</span> Tugas &amp; Tenggat <i class="side-count" id="taskCount">0</i></button>
+        <button class="side-link" data-page="calendar"><span>▦</span> Kalender Akademik</button>
+        <button class="side-link" data-page="planner"><span>◷</span> Perencana Belajar</button>
+        <button class="side-link" data-page="notes"><span>▤</span> Catatanku</button>
+        <button class="side-link" data-page="progress"><span>◔</span> Progres</button>
+      </nav>
+      <div class="sidebar-bottom"><div class="tip-card"><span>✦ PENGINGAT KECIL</span><p>Progres tetaplah progres, sekecil apa pun.</p></div><button class="side-link" id="backLanding"><span>↗</span> Kembali ke beranda</button><button class="side-link" id="logoutBtn"><span>⎋</span> Keluar</button><div class="user-mini"><div class="user-avatar" id="userAvatar">?</div><div><b id="userName">—</b><small>Ruang kerja mahasiswa</small></div><button id="themeToggle" title="Ganti tema">◐</button></div></div>
+    </aside>
+    <main class="main-area">
+      <header class="app-topbar"><button class="mobile-menu app-menu" id="appMenu" aria-label="Buka menu">☰</button><div class="breadcrumb">Ruang Kerja <span>/</span> <b id="currentPage">Ringkasan</b></div><div class="topbar-right"><span class="today-label" id="todayLabel"></span><button class="icon-btn" id="topTheme" title="Ganti tema">◐</button><div class="user-avatar small" id="topAvatar">?</div></div></header>
+      <div class="page-content" id="pageContent"></div>
+    </main>
+  </div>
+
+  <!-- Modal masuk / daftar -->
+  <div class="modal-backdrop hidden" id="authBackdrop"><div class="modal">
+    <div class="modal-head"><div><span class="eyebrow" id="authEyebrow">SELAMAT DATANG KEMBALI</span><h3 id="authTitle">Masuk ke BelajarKuy</h3></div><button class="close-modal" id="closeAuth" aria-label="Tutup">×</button></div>
+    <div class="demo-box hidden" id="demoBox"><div><b>Mode demo</b><small>Coba langsung tanpa daftar. Akun demo dipakai bersama dan datanya bisa direset kapan saja.</small></div><button type="button" class="btn btn-ghost" id="demoLogin">Coba akun demo</button></div>
+    <form id="authForm" novalidate>
+      <div class="form-error hidden" id="authError"></div>
+      <label id="authNameWrap">Nama lengkap<input id="authName" autocomplete="name" placeholder="mis. Farid Saputra" maxlength="60"></label>
+      <label>Email<input type="email" id="authEmail" autocomplete="email" placeholder="kamu@email.com" required></label>
+      <label>Kata sandi<input type="password" id="authPassword" autocomplete="current-password" placeholder="Minimal 8 karakter" required maxlength="72"></label>
+      <div class="modal-actions"><button class="btn btn-primary" type="submit" id="authSubmit">Masuk</button></div>
+    </form>
+    <p class="auth-switch" id="authSwitch"></p>
+  </div></div>
+
+  <!-- Modal tugas / sesi / catatan -->
+  <div class="modal-backdrop hidden" id="modalBackdrop"><div class="modal">
+    <div class="modal-head"><div><span class="eyebrow">AYO SELESAIKAN</span><h3 id="modalTitle">Tambah tugas</h3></div><button class="close-modal" id="closeModal" aria-label="Tutup">×</button></div>
+    <form id="itemForm">
+      <input type="hidden" id="itemId">
+      <div class="form-error hidden" id="formError"></div>
+      <label>Judul<input id="fieldTitle" required maxlength="150" placeholder="mis. Selesaikan tugas UI"></label>
+      <div class="form-row">
+        <label>Kategori<select id="fieldCategory"><option>Pemrograman</option><option>Basis Data</option><option>Riset</option><option>Umum</option></select></label>
+        <label id="wrapDate"><span id="lblDate">Tenggat</span><input type="date" id="fieldDate"></label>
+      </div>
+      <div class="form-row" id="wrapTask">
+        <label>Prioritas<select id="fieldPriority"><option value="medium">Sedang</option><option value="high">Tinggi</option><option value="low">Rendah</option></select></label>
+        <label>Status<select id="fieldStatus"><option value="todo">Belum mulai</option><option value="in_progress">Sedang dikerjakan</option><option value="completed">Selesai</option></select></label>
+      </div>
+      <div class="form-row" id="wrapTime">
+        <label>Jam mulai<input type="time" id="fieldStart" value="09:00"></label>
+        <label>Jam selesai<input type="time" id="fieldEnd" value="10:00"></label>
+      </div>
+      <label id="wrapNotes"><span id="lblNotes">Catatan</span><textarea id="fieldNotes" rows="3" maxlength="2000" placeholder="Detail tambahan (opsional)"></textarea></label>
+      <div class="modal-actions"><button type="button" class="btn btn-danger hidden" id="deleteItem">Hapus</button><button type="button" class="btn btn-ghost" id="cancelModal">Batal</button><button class="btn btn-primary" type="submit" id="saveItem">Simpan</button></div>
+    </form>
+  </div></div>
+  <div class="toast" id="toast"></div>
+  <script src="app.js"></script>
+</body>
+</html>

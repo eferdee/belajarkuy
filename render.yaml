@@ -1,0 +1,18 @@
+# Blueprint Render: New > Blueprint > pilih repo ini.
+services:
+  - type: web
+    name: belajarkuy
+    runtime: node
+    plan: free
+    buildCommand: cd backend && npm install
+    startCommand: cd backend && npm start
+    healthCheckPath: /api/health
+    envVars:
+      - key: NODE_VERSION
+        value: 22
+      - key: NODE_ENV
+        value: production
+      - key: JWT_SECRET
+        generateValue: true   # Render membuatkan kunci acak; tidak perlu ditulis di repo
+      - key: DEMO_MODE
+        value: "true"         # akun demo otomatis (disk free tier bersifat sementara)

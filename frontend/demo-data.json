@@ -1,0 +1,31 @@
+{
+  "_catatan": "Sumber tunggal data contoh. Dipakai backend untuk mengisi akun demo DAN frontend untuk pratinjau di landing page, supaya keduanya selalu sama. Tanggal ditulis relatif terhadap hari ini (day: 0 = hari ini, -1 = kemarin, 2 = lusa).",
+  "user": { "name": "Farid Demo" },
+  "tasks": [
+    { "title": "Laporan praktikum basis data", "category": "Basis Data", "day": 2, "priority": "high", "status": "in_progress", "notes": "Bab ERD dan normalisasi." },
+    { "title": "Desain antarmuka aplikasi kuliah", "category": "Pemrograman", "day": 3, "priority": "medium", "status": "in_progress", "notes": "" },
+    { "title": "Baca jurnal metodologi penelitian", "category": "Riset", "day": 5, "priority": "low", "status": "todo", "notes": "Fokus pada bagian metode." },
+    { "title": "Rangkum bab 04 pemrograman web", "category": "Pemrograman", "day": 7, "priority": "medium", "status": "todo", "notes": "" },
+    { "title": "Review catatan basis data", "category": "Basis Data", "day": 0, "priority": "medium", "status": "completed", "notes": "" },
+    { "title": "Kerjakan latihan SQL join", "category": "Basis Data", "day": -1, "priority": "medium", "status": "completed", "notes": "" },
+    { "title": "Rangkum materi pemrograman web", "category": "Pemrograman", "day": -3, "priority": "low", "status": "completed", "notes": "" },
+    { "title": "Tugas ERD kelompok", "category": "Basis Data", "day": -4, "priority": "high", "status": "completed", "notes": "" },
+    { "title": "Kuis algoritma dan struktur data", "category": "Pemrograman", "day": -5, "priority": "medium", "status": "completed", "notes": "" },
+    { "title": "Presentasi metodologi riset", "category": "Riset", "day": -7, "priority": "medium", "status": "completed", "notes": "" },
+    { "title": "Siapkan proyek Laravel", "category": "Pemrograman", "day": -9, "priority": "low", "status": "completed", "notes": "" },
+    { "title": "Resume jurnal basis data", "category": "Riset", "day": -11, "priority": "low", "status": "completed", "notes": "" }
+  ],
+  "sessions": [
+    { "title": "Review catatan basis data", "category": "Basis Data", "day": 0, "start": "09:00", "end": "10:30" },
+    { "title": "Selesaikan tugas UI", "category": "Pemrograman", "day": 0, "start": "13:00", "end": "14:30" },
+    { "title": "Baca bab 04", "category": "Pemrograman", "day": 0, "start": "16:00", "end": "17:00" },
+    { "title": "Mengerjakan laporan praktikum", "category": "Basis Data", "day": 1, "start": "16:00", "end": "18:00" },
+    { "title": "Latihan JavaScript", "category": "Pemrograman", "day": 3, "start": "10:00", "end": "11:30" },
+    { "title": "Diskusi kelompok riset", "category": "Riset", "day": 4, "start": "14:00", "end": "15:00" }
+  ],
+  "notes": [
+    { "title": "Normalisasi basis data", "category": "Basis Data", "body": "1NF: nilai atomik. 2NF: tidak ada ketergantungan parsial. 3NF: tidak ada ketergantungan transitif.", "daysAgo": 0 },
+    { "title": "Ide proyek akhir", "category": "Umum", "body": "Aplikasi pengatur jadwal belajar dengan pengingat tenggat.", "daysAgo": 1 },
+    { "title": "Ringkasan bab 04", "category": "Pemrograman", "body": "Routing, controller, dan view: alur permintaan dari browser sampai respons.", "daysAgo": 3 }
+  ]
+}
